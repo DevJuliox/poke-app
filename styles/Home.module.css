@@ -58,3 +58,27 @@
   flex-shrink: wrap;
   flex-direction: column;
 }
+
+.filtros {
+  display: flex;
+  padding: 15px;
+}
+.botones {
+  display: flex;
+  overflow: auto;
+  padding: 0 15px;
+}
+
+.botonFiltro {
+  border-radius: 20px;
+  padding: 3px 15px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+.botonTodos {
+  color: #000;
+}
